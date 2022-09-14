@@ -1,4 +1,3 @@
 <?php
 
-echo "Hello World!";
-getenv("DB_HOST");
+echo "Hello World!\n".getenv("test")."<br />\n";
